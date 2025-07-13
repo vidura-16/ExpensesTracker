@@ -1,0 +1,36 @@
+{
+  "name": "myexpensetracker",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "bundle": "expo export",
+    "ios": "npm run bundle && cd ios && xed .",
+    "android": "expo run:android"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/stack": "^7.3.2",
+    "expo": "~53.0.9",
+    "expo-dev-client": "~5.1.8",
+    "expo-print": "~14.1.4",
+    "expo-status-bar": "~2.2.3",
+    "lucide-react": "^0.511.0",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-svg": "15.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "^18.0.0"
+  },
+  "private": true
+}
