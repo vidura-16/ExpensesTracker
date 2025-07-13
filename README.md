@@ -7,7 +7,7 @@ A simple and clean mobile app to track your daily expenses, built with **React N
 ## ✨ Features
 
 - ✅ Track expenses by category (Food, Travel, Utilities, Extra)
-- 📊 View weekly and monthly summaries
+- 📊 View weekly and monthly summaries => PDF expense reports
 - 🔔 Get alerts when you exceed your daily budget
 - 📁 Works fully offline (no server required)
 - 📱 Runs as a standalone app on iOS
